@@ -9,9 +9,11 @@ hand is then reviewed and the user's payout is set based on the
 value of the hand. The user's new bankroll is displayed as they are
 given the option to continue. */
 
-// Header files
+/* New comment: Now that I have read the whole book, I will use this file to comment on every function, what it does & how the program works. */
 
-#include <stdio.h>
+// Header files, or library files
+
+#include <stdio.h>   // standard Input/Output library
 #include <time.h>
 #include <ctype.h>
 #include <stdlib.h>
@@ -19,7 +21,7 @@ given the option to continue. */
 // Two constants defined for determining whether hands are flushes
 // or straights
 
-#define FALSE 0
+#define FALSE 0   // 0 is always seen as false, and 1 as true
 #define TRUE 1
 
 // Function prototyping
