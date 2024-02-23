@@ -47,12 +47,9 @@ main()
     time_t t;
     char suit, rank, stillPlay;
 
-    // This function is called outside the do...while loop because
-    // the greeting
-    // only needs to be displayed once, while everything else in main
-    // will run
-    // multiple times, depending on how many times the user wants to
-    // play.
+    // This function is called outside the do...while loop because the greeting
+    // only needs to be displayed once, while everything else in main will run
+    // multiple times, depending on how many times the user wants to play.
 
     printGreeting();
 
