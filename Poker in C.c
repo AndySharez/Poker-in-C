@@ -1,7 +1,3 @@
-// Example poker program from Appendix B of Absolute Beginner's
-// Guide to C, 3rd Edition
-// File AppendixBpoker.c
-
 /* This program plays draw poker. Users can play as often as they
 want, betting between 1 and 5. They are dealt 5 cards and then get
 to choose which cards to keep, and which cards to replace. The new
@@ -9,7 +5,6 @@ hand is then reviewed and the user's payout is set based on the
 value of the hand. The user's new bankroll is displayed as they are
 given the option to continue. */
 
-/* New comment: Now that I have read the whole book, I will use this file to comment on every function, what it does & how the program works. */
 
 // Header files, or library files
 
