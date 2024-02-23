@@ -16,7 +16,7 @@ given the option to continue. */
 // Two constants defined for determining whether hands are flushes
 // or straights
 
-#define FALSE 0   // 0 is always seen as false, and 1 as true
+#define FALSE 0
 #define TRUE 1
 
 // Function prototyping
