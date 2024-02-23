@@ -8,7 +8,7 @@ given the option to continue. */
 
 // Header files, or library files
 
-#include <stdio.h>   // standard Input/Output library
+#include <stdio.h>
 #include <time.h>
 #include <ctype.h>
 #include <stdlib.h>
