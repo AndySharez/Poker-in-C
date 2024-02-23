@@ -6,7 +6,7 @@ value of the hand. The user's new bankroll is displayed as they are
 given the option to continue. */
 
 
-// Header files, or library files
+// Header files
 
 #include <stdio.h>
 #include <time.h>
