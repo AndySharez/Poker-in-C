@@ -119,7 +119,7 @@ main()
 void printGreeting()
 {
     printf("***************************************************\n");
-    printf("\n\n\tWelcome to the Absolute Beginner's Casino\n\n");
+    printf("\n\n\tWelcome to the Casino\n\n");
     printf("\tHome of Video Draw Poker\n\n");
     printf("***************************************************\n");
     printf("Here are the rules:\n");
