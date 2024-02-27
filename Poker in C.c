@@ -21,7 +21,7 @@ given the option to continue. */
 
 // Function prototyping
 
-void printGreeting(); // void does not return anything / program does not expect a value 
+void printGreeting(); // void function
 int getBet();
 char getSuit(int suit);
 char getRank(int rank);
