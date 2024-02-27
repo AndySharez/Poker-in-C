@@ -8,20 +8,20 @@ given the option to continue. */
 
 // Header files
 
-#include <stdio.h>
-#include <time.h>
-#include <ctype.h>
-#include <stdlib.h>
+#include <stdio.h> // defines three variable types, several macros, and various functions for performing input and output. (size_t etc.)
+#include <time.h> // defines four variable types, two macro and various functions for manipulating date and time (time_t etc.)
+#include <ctype.h> // character library; declares functions used in character classification
+#include <stdlib.h> // standard library
 
 // Two constants defined for determining whether hands are flushes
 // or straights
 
-#define FALSE 0
+#define FALSE 0 // in C, the value 0 usually stands for false, while 1 stands for true
 #define TRUE 1
 
 // Function prototyping
 
-void printGreeting();
+void printGreeting(); // void does not return anything / program does not expect a value 
 int getBet();
 char getSuit(int suit);
 char getRank(int rank);
