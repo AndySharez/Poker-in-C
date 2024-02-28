@@ -21,7 +21,7 @@ given the option to continue. */
 
 // Function prototyping
 
-void printGreeting(); // void function
+void printGreeting(); 
 int getBet();
 char getSuit(int suit);
 char getRank(int rank);
