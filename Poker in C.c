@@ -20,6 +20,7 @@ given the option to continue. */
 #define TRUE 1
 
 // Function prototyping
+// Important for ease of use, debugging, error-prevention
 
 void printGreeting(); 
 int getBet();
