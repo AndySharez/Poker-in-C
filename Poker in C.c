@@ -16,7 +16,7 @@ given the option to continue. */
 // Two constants defined for determining whether hands are flushes
 // or straights
 
-#define FALSE 0 // in C, the value 0 usually stands for false, while 1 stands for true
+#define FALSE 0 
 #define TRUE 1
 
 // Function prototyping
