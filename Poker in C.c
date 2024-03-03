@@ -28,7 +28,7 @@ char getSuit(int suit);
 char getRank(int rank);
 void getFirstHand(int cardRank[], int cardSuit[]);
 void getFinalHand(int cardRank[], int cardSuit[], int finalRank[],
-                    int finalSuit[], int ranksinHand[],
+                  int finalSuit[], int ranksinHand[],
 int suitsinHand[]);
 int analyzeHand(int ranksinHand[], int suitsinHand[]);
 
@@ -86,7 +86,7 @@ main()
         }
 
         getFinalHand(cardRank, cardSuit, finalRank, finalSuit,
-                        ranksinHand, suitsinHand);
+                     ranksinHand, suitsinHand);
 
         printf("Your five final cards: \n");
 
@@ -114,7 +114,7 @@ main()
 }
 
 /******************************************************************/
-// Print a quick greeting as well as tell the users the value of
+// Quick greeting telling the users the value of
 // different winning hands
 
 void printGreeting()
@@ -364,7 +364,7 @@ void getFinalHand(int cardRank[], int cardSuit[], int finalRank[],
                 finalRank[i] = (rand() % 13);
                 finalSuit[i] = (rand() % 4);
 
-                // First check your new card against the 5 original
+                // First checking your new card against the 5 original
                 // cards to avoid duplication
 
                 for (j=0; j < 5; j++)
@@ -376,7 +376,7 @@ void getFinalHand(int cardRank[], int cardSuit[], int finalRank[],
                     }
                 }
 
-                // Next, check the new card against any newly drawn
+                // Next, checking the new card against any newly drawn
                 // cards to avoid duplication
 
                 for (j=0; j < i; j++)
