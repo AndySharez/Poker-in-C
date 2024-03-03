@@ -121,7 +121,7 @@ void printGreeting()
 {
     printf("***************************************************\n");
     printf("\n\n\tWelcome to the Casino\n\n");
-    printf("\tHome of Video Draw Poker\n\n");
+    printf("\tHome of Draw Poker\n\n");
     printf("***************************************************\n");
     printf("Here are the rules:\n");
     printf("You start with 100 credits, and you make a bet from ");
